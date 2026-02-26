@@ -45,3 +45,21 @@ hf download grill-lab/browsecomp-plus-indexes \
   --include="index.splade-v3.passage/*" \
   --local-dir ./indexes \
   --local-dir-use-symlinks False
+
+  hf download grill-lab/browsecomp-plus-indexes \
+  --repo-type dataset \
+  --include="index.repllama-v1-7b-lora-passage.passage/*" \
+  --local-dir ./indexes \
+  --local-dir-use-symlinks False
+
+hf download grill-lab/browsecomp-plus-indexes \
+  --repo-type dataset \
+  --include="index.qwen3-embedding-8b.passage/*" \
+  --local-dir ./indexes \
+  --local-dir-use-symlinks False
+
+hf download grill-lab/browsecomp-plus-indexes \
+  --repo-type dataset \
+  --include="index.colbertv2.0-d512.passage/*" \
+  --local-dir ./indexes \
+  --local-dir-use-symlinks False

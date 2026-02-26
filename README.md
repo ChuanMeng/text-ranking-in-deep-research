@@ -94,7 +94,6 @@ Download the BrowseComp-Plus passage corpus from [here](https://huggingface.co/d
 bash ./scripts_build_index/download_passage.sh
 ```
 Passage files will be put in the `data/` directory in the repository root.
-
 If you prefer to construct the passage corpus yourself, follow Section [4](#sec-data).
 
 #### Download retrieval indices
@@ -557,10 +556,10 @@ CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_VISIBLE_DEVICES=0 \
 <a id="sec-decrypt"></a>
 ## 6. Decrypting encrypted runs
 
-Please download the encrypted run files from [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs).
-Place the downloaded folder in the repository root directory, then run:
+Download the encrypted run files from [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs) and decrypt them:
 ```bash
-bash decrypt_runs.sh
+bash ./scripts_encrypt_decrypt_run/download_runs.sh
+bash ./scripts_encrypt_decrypt_run/decrypt_runs.sh
 ```
 This script will decrypt all run files locally and generate the corresponding plaintext execution traces.
 

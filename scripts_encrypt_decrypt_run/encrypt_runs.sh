@@ -3,7 +3,7 @@ set -euo pipefail
 
 INPUT_ROOT="./runs"
 OUTPUT_ROOT="./encrypted_runs"
-SCRIPT_PATH="./encrypt_run.py"
+SCRIPT_PATH="./scripts_encrypt_decrypt_run/encrypt_run.py"
 
 # Find all directories containing at least one .json file and process them.
 while IFS= read -r dir; do
