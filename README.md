@@ -1,5 +1,7 @@
 # Revisiting Text Ranking in Deep Research
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=text-ranking-in-deep-research)
+
 This repository contains the code for the paper [Revisiting Text Ranking in Deep Research](https://arxiv.org/abs/2602.21456).
 
 In this work, we reproduce a comprehensive set of text ranking methods in the context of deep research. Specifically, we investigate the performance of **2 deep research agents** accessing **5 retrievers** and **3 re-rankers**.
