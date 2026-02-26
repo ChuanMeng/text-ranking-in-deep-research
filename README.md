@@ -133,7 +133,7 @@ python search_agent/oss_client.py \
   --reasoning-effort high --max-tokens 40000 --query-template QUERY_TEMPLATE_NO_GET_DOCUMENT \
   --snippet-max-tokens 512 \
   --query ./topics-qrels/queries-all.tsv \
-  --reranking_depth 50 --k 5 \
+  --reranking-depth 50 --k 5 \
   --reranker-type monot5 \
   --monot5-model castorini/monot5-3b-msmarco --monot5-tokenizer castorini/monot5-3b-msmarco \
   --monot5-batch-size 8 \
