@@ -93,7 +93,7 @@ Download the BrowseComp-Plus passage corpus from [here](https://huggingface.co/d
 ```bash
 bash ./scripts_build_index/download_passage.sh
 ```
-Passage files will be put in the `data/` directory in the repository root.
+Passage files will be put in the `./data/browsecomp-plus-passage/` directory under the repository root.
 If you prefer to construct the passage corpus yourself, follow Section [4](#sec-data).
 
 #### Download retrieval indices
@@ -101,7 +101,7 @@ Download all pre-built retriever indices from [here](https://huggingface.co/data
 ```bash
 bash ./scripts_build_index/download_indexes.sh
 ```
-All indexes will be put in the `indexes/` directory in the repository root.
+All indexes will be put in the `indexes/` directory under the repository root.
 If you prefer to build the indices yourself, follow Section [5](#sec-index).
 
 
