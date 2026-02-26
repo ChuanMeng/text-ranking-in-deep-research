@@ -129,7 +129,7 @@ python search_agent/oss_client.py \
   --model-url http://localhost:8000/v1 \
   --searcher-type bm25 \
   --index-path ./indexes/index.bm25.passage/ \
-  --output-dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage \
+  --output-dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage-psgid \
   --reasoning-effort high --max-tokens 40000 --query-template QUERY_TEMPLATE_NO_GET_DOCUMENT \
   --snippet-max-tokens 512 \
   --query ./topics-qrels/queries-all.tsv \
@@ -141,8 +141,8 @@ python search_agent/oss_client.py \
 
 # the Max-P strategy, which maps retrieved passages to documents by assigning each document the maximum score among its retrieved passages
 python psg2doc.py \
-  --input_json_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage \
-  --output_json_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage-psg2doc
+  --input_json_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage-psgid \
+  --output_json_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage
 ```
 
 Last, run the following commands to do evaluation:
@@ -150,14 +150,14 @@ Last, run the following commands to do evaluation:
 # Search calls, Recall, and answer accuracy
 CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_VISIBLE_DEVICES=1,2 \
 python scripts_evaluation/evaluate_run.py \
---input_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage-psg2doc \
+--input_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage \
 --ground_truth ./data/browsecomp_plus_decrypted.jsonl \
 --qrel_evidence ./topics-qrels/qrel_evidence.txt \
 --tensor_parallel_size 2
 
 # completion rate
 python scripts_evaluation/count_complete.py \
---input_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage-psg2doc
+--input_dir ./runs/gpt-oss-20b-high/queries-all.bm25-d50-monot5-3b-msmarco-k5.passage
 ```
 
 <a id="sec-reproduce"></a>

@@ -45,7 +45,7 @@ TMP="${INDEX_DIR_BASE#index.}"
 CORPUS_TYPE="${TMP##*.}"                
 
 OUT_DIR=./runs/${MODEL_NAME}-${REASONING_EFFORT}/${QUERY_NAME}.q2q-context-qwen3-embedding-8b-k${K}.${CORPUS_TYPE}-psgid
-OUT_DOC_DIR=${OUT_DIR}
+OUT_DOC_DIR=./runs/${MODEL_NAME}-${REASONING_EFFORT}/${QUERY_NAME}.q2q-context-qwen3-embedding-8b-k${K}.${CORPUS_TYPE}
 
 ############################
 # print configuration

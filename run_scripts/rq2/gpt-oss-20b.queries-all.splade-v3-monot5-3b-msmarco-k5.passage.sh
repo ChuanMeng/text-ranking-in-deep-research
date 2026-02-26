@@ -47,7 +47,7 @@ TMP="${INDEX_DIR_BASE#index.}"
 CORPUS_TYPE="${TMP##*.}"                     
 
 OUT_DIR=./runs/${MODEL_NAME}-${REASONING_EFFORT}/${QUERY_NAME}.splade-v3-d${RERANKING_DEPTH}-monot5-3b-msmarco-k${K}.${CORPUS_TYPE}-psgid
-OUT_DOC_DIR=${OUT_DIR}
+OUT_DOC_DIR=./runs/${MODEL_NAME}-${REASONING_EFFORT}/${QUERY_NAME}.splade-v3-d${RERANKING_DEPTH}-monot5-3b-msmarco-k${K}.${CORPUS_TYPE}
 
 ############################
 # print configuration
