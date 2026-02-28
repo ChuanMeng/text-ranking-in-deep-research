@@ -14,7 +14,7 @@ Re-rankers are [monoT5-3B](https://huggingface.co/castorini/monot5-3b-msmarco), 
 
 To support reproducibility and further analysis, this repository releases:
 
-- Our newly constructed BrowseComp-Plus **passage corpus**, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus).
+- Our newly constructed BrowseComp-Plus **passage corpus**, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) (Tevatron format) and [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) (Pyserini format).
 - All indexes of retrievers, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes).
 - Full execution trajectory data (including agent reasoning and search traces) for all runs in our paper, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs). Note that the trajectory data is released in encrypted form and can be decrypted locally using the provided scripts. 
 
