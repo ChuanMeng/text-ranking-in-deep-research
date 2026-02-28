@@ -576,9 +576,9 @@ If you have any questions or suggestions, please contact us at:
 If you find this work useful, please cite:
 ```
 @article{meng2026revisiting,
-      title={Revisiting Text Ranking in Deep Research}, 
-      author={Meng, Chuan and Ou, Litu and MacAvaney, Sean and Dalton, Jeff},
-      year={2026},
-      journal={arXiv preprint arXiv:2602.21456}
+  title={Revisiting Text Ranking in Deep Research},
+  author={Meng, Chuan and Ou, Litu and MacAvaney, Sean and Dalton, Jeff},
+  journal={arXiv preprint arXiv:2602.21456},
+  year={2026}
 }
 ```
