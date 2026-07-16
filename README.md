@@ -16,6 +16,9 @@ If you find this work useful, please consider citing:
   title={Revisiting Text Ranking in Deep Research},
   author={Meng, Chuan and Ou, Litu and MacAvaney, Sean and Dalton, Jeff},
   booktitle={Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {3006--3016},
+  url = {https://doi.org/10.1145/3805712.3808557},
+  doi = {10.1145/3805712.3808557},
   year={2026}
 }
 ```
