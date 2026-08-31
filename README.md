@@ -27,23 +27,11 @@ If you find this work useful, please consider citing:
 
 To support reproducibility and further analysis, this repository releases:
 
-- Our newly constructed BrowseComp-Plus **passage corpus**, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) (Tevatron format) and [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) (Pyserini format).
-- All indexes of retrievers, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes).
-- Full execution trajectory data (including agent reasoning and search traces) for all runs in our paper, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs). Note that the trajectory data is released in encrypted form and can be decrypted locally using the provided scripts. 
+- Our newly constructed BrowseComp-Plus **passage corpus**, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) (Tevatron format) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-passage-corpus%3Fexpand%5B%5D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue) and [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) (Pyserini format) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-passage-corpus-pyserini%3Fexpand%5B%5D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue).
+- All indexes of retrievers, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-indexes%3Fexpand%5B%5D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue).
+- Full execution trajectory data (including agent reasoning and search traces) for all runs in our paper, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-runs%3Fexpand%5B%5D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue). Note that the trajectory data is released in encrypted form and can be decrypted locally using the provided scripts.
 
-### Download statistics
-
-Cumulative downloads of the released datasets, as reported by the Hugging Face Hub API (`downloadsAllTime`), retrieved on 31 August 2026:
-
-| Dataset | Cumulative downloads | Verify |
-| --- | ---: | --- |
-| [browsecomp-plus-indexes](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes) | 11,582 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-indexes?expand[]=downloadsAllTime) |
-| [browsecomp-plus-passage-corpus](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) | 1,125 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-passage-corpus?expand[]=downloadsAllTime) |
-| [browsecomp-plus-runs](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs) | 944 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-runs?expand[]=downloadsAllTime) |
-| [browsecomp-plus-passage-corpus-pyserini](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) | 629 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini?expand[]=downloadsAllTime) |
-| **Total** | **14,280** | |
-
-Note that a dataset page on the Hugging Face website reports only downloads in the last 30 days, so the cumulative figures above can be checked through the linked API endpoints, which are public and require no account. The counts grow over time, so a later check will return larger values.
+The badges above show cumulative downloads reported by the Hugging Face Hub API (`downloadsAllTime`) and update automatically.
 
 ## Repository Structure
 
