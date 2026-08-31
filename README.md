@@ -25,13 +25,16 @@ If you find this work useful, please consider citing:
 
 ## Resources released
 
-To support reproducibility and further analysis, this repository releases:
+To support reproducibility and further analysis, this repository releases the following on the Hugging Face Hub:
 
-- Our newly constructed BrowseComp-Plus **passage corpus**, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) (Tevatron format) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-passage-corpus%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue) and [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) (Pyserini format) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-passage-corpus-pyserini%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue).
-- All indexes of retrievers, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-indexes%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue).
-- Full execution trajectory data (including agent reasoning and search traces) for all runs in our paper, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs) ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-runs%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=blue). Note that the trajectory data is released in encrypted form and can be decrypted locally using the provided scripts.
+| Resource | Dataset | Downloads |
+| --- | --- | --- |
+| BrowseComp-Plus passage corpus (Tevatron format) | [browsecomp-plus-passage-corpus](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) | ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-passage-corpus%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=&color=blue&logo=huggingface&logoColor=white) |
+| BrowseComp-Plus passage corpus (Pyserini format) | [browsecomp-plus-passage-corpus-pyserini](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) | ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-passage-corpus-pyserini%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=&color=blue&logo=huggingface&logoColor=white) |
+| Indexes of all retrievers | [browsecomp-plus-indexes](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes) | ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-indexes%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=&color=blue&logo=huggingface&logoColor=white) |
+| Execution trajectories of all runs (agent reasoning and search traces) | [browsecomp-plus-runs](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs) | ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2Fgrill-lab%2Fbrowsecomp-plus-runs%3Fexpand%3DdownloadsAllTime&query=%24.downloadsAllTime&label=&color=blue&logo=huggingface&logoColor=white) |
 
-The badges show cumulative downloads (`downloadsAllTime` from the Hugging Face Hub API) and update automatically; the four datasets total over 14,000 downloads as of 31 August 2026.
+The execution trajectories are released in encrypted form and can be decrypted locally using the provided scripts.
 
 ## Repository Structure
 
