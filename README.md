@@ -31,6 +31,20 @@ To support reproducibility and further analysis, this repository releases:
 - All indexes of retrievers, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes).
 - Full execution trajectory data (including agent reasoning and search traces) for all runs in our paper, available for download [here](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs). Note that the trajectory data is released in encrypted form and can be decrypted locally using the provided scripts. 
 
+### Download statistics
+
+Cumulative downloads of the released datasets, as reported by the Hugging Face Hub API (`downloadsAllTime`), retrieved on 31 August 2026:
+
+| Dataset | Cumulative downloads | Verify |
+| --- | ---: | --- |
+| [browsecomp-plus-indexes](https://huggingface.co/datasets/grill-lab/browsecomp-plus-indexes) | 11,582 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-indexes?expand[]=downloadsAllTime) |
+| [browsecomp-plus-passage-corpus](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus) | 1,125 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-passage-corpus?expand[]=downloadsAllTime) |
+| [browsecomp-plus-runs](https://huggingface.co/datasets/grill-lab/browsecomp-plus-runs) | 944 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-runs?expand[]=downloadsAllTime) |
+| [browsecomp-plus-passage-corpus-pyserini](https://huggingface.co/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini) | 629 | [API](https://huggingface.co/api/datasets/grill-lab/browsecomp-plus-passage-corpus-pyserini?expand[]=downloadsAllTime) |
+| **Total** | **14,280** | |
+
+Note that a dataset page on the Hugging Face website reports only downloads in the last 30 days, so the cumulative figures above can be checked through the linked API endpoints, which are public and require no account. The counts grow over time, so a later check will return larger values.
+
 ## Repository Structure
 
 This repository is organised into the following sections:
